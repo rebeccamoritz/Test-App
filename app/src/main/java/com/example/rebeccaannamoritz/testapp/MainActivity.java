@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -12,6 +14,17 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void setFragment(int fragmentId) {
+
+    }
+
+    /*public void buttonOnClick(View v) {
+        Button button=(Button) v;
+        ((Button) v).setText("clicked");
+    }*/
+
+
 
 
     @Override
@@ -35,4 +48,6 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
